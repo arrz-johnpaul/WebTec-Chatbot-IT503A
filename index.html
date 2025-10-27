@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Semi-transparent overlay box -->
+  <div class="overlay-box"></div>
+
+  <!-- Main content on top of overlay -->
+  <div class="main-content">
+    <!-- HEADER -->
+    <div class="text-section">
+      <div class="title-row">
+        <div class="text-part">
+          <h1 class="talkto">Talk to</h1>
+          <h2 class="highlight">Ey ay</h2>
+        </div>
+        <img src="image.png" alt="Robot" class="robot-image" />
+      </div>
+    </div>
+
+    <!-- SUGGESTIONS -->
+    <div class="suggestions">
+      <div class="card">Design a home office setup for remote work under $500.</div>
+      <div class="card">How can I improve my web development skills in 2025?</div>
+      <div class="card">Suggest some useful tools for debugging JavaScript code.</div>
+      <div class="card">Create a React JS component for a simple todo list app.</div>
+    </div>
+
+    <!-- CHAT AREA -->
+    <div class="chat-wrapper">
+      <div class="chat-box" id="chat-box">
+        <div class="message bot">Hi there! 👋 I'm Ey-Ay. How can I assist you today?</div>
+      </div>
+
+      <!-- INPUT FIELD -->
+      <div class="input-area">
+        <input type="text" id="user-input" placeholder="Enter your message..." />
+        <button class="send-btn" id="send-btn">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
