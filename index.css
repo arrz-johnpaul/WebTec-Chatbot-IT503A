@@ -222,3 +222,80 @@ body::before {
 .send-btn:hover {
   background: #8282ff;
 }
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  body {
+    padding: 40px 20px;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .talkto {
+    font-size: 2rem;
+  }
+
+  .highlight {
+    font-size: 3rem;
+  }
+
+  .robot-image {
+    width: 70px;
+  }
+
+  .suggestions {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    font-size: 0.85rem;
+  }
+
+  .chat-wrapper {
+    width: 100%;
+  }
+
+  .chat-box {
+    padding: 10px;
+  }
+
+  .input-area {
+    height: 50px;
+    padding: 8px 12px;
+  }
+
+  .input-area input {
+    font-size: 0.9rem;
+  }
+
+  .send-btn {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .talkto {
+    font-size: 1.8rem;
+  }
+
+  .highlight {
+    font-size: 2.5rem;
+  }
+
+  .robot-image {
+    width: 60px;
+  }
+
+  .card {
+    font-size: 0.8rem;
+  }
+}
